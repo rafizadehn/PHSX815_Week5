@@ -144,7 +144,7 @@ if __name__ == "__main__":
     # plot for Nsample
 
     plt.subplot(1, 2, 2)
-    plt.plot(xs, ys)
+    plt.plot(xs, ys, linewidth = 3, color = 'blue')
     plt.hist(samples, density = True, alpha = 0.2, label = "sample points distribution", bins = 50, linewidth = 1, edgecolor = 'k')
     plt.xlim(xmin, xmax)
     plt.ylim(0, 1.5)
@@ -157,7 +157,7 @@ if __name__ == "__main__":
     # plot for Nsample/10
 
     plt.subplot(1, 2, 1)
-    plt.plot(xs, ys)
+    plt.plot(xs, ys, linewidth = 3, color = 'blue')
     plt.hist(samples_c, density = True, alpha = 0.2, label = "sample points distribution", bins = 50, linewidth = 1, edgecolor = 'k')
     plt.xlim(xmin, xmax)
     plt.ylim(0, 1.5)
