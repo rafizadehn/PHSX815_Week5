@@ -19,7 +19,7 @@ The script will generate a plot for each step of this process to demonstrate how
 
 ![pic1](https://user-images.githubusercontent.com/76142511/219473716-c65b7655-6acc-47dd-867e-00e545cc532b.png)
 
-Next, the rejection sampling process is performed. This is done by generated random points on the 2D plane and determining whether it is within the curve (a hit) or whether it is between the curve and the proposal distribution (a miss) which is a uniform line at y = 1.2. To visualize this, each point within the curve is plotted green and those outside of the curve are plotted red. 
+Next, the rejection sampling process is performed. This is done by generating random points on the 2D plane and determining whether it is within the curve (a hit, colored in green) or whether it is between the curve and the proposal distribution (a miss, colored in red) which is a uniform line at y = 1.2. To visualize this, each point within the curve is plotted green and those outside of the curve are plotted red. 
 
 ![pic2](https://user-images.githubusercontent.com/76142511/219473814-53f15946-5885-49c5-9ef3-6632cd28b364.png)
 
