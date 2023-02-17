@@ -82,7 +82,7 @@ if __name__ == "__main__":
     plt.legend(fontsize = 15, loc = 'upper right')
     figure = plt.gcf()
     figure.set_size_inches(8,7)
-    plt.savefig("Functions.pdf", dpi=1000)
+    plt.savefig("plot1_Functions.pdf")
     plt.show()
 
     ### PART 2 - perform rejection sampling
@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     figure = plt.gcf()
     figure.set_size_inches(19,10)
-    plt.savefig("RejectionSampling.pdf")
+    plt.savefig("plot2_RejectionSampling.pdf")
     plt.show()
     
     # the efficiency is the number of hits / the total number of draws,
@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
     figure = plt.gcf()
     figure.set_size_inches(19,10)
-    plt.savefig("SampleDistribution.pdf")
+    plt.savefig("plot3_SampleDistribution.pdf")
     plt.show()
 
     ### PART 4 - normalize data for probability distribution
@@ -215,6 +215,6 @@ if __name__ == "__main__":
 
     figure = plt.gcf()
     figure.set_size_inches(19,10)
-    plt.savefig("ProbabilityDensity.pdf")
+    plt.savefig("plot4_ProbabilityDensity.pdf")
     plt.show()
 
