@@ -82,8 +82,6 @@ if __name__ == "__main__":
     plt.legend(fontsize = 15, loc = 'upper right')
     plt.show()
 
-    plt.savefig("Functions.pdf")
-
     ### PART 2 - perform rejection sampling
 
     # uses defined sample function that generates random x and y values for sampling
