@@ -80,6 +80,9 @@ if __name__ == "__main__":
     plt.ylabel("y-values", fontsize = 15)
     plt.tick_params(axis = 'both', labelsize = 13)
     plt.legend(fontsize = 15, loc = 'upper right')
+    figure = plt.gcf()
+    figure.set_size_inches(8,7)
+    plt.savefig("Functions.pdf", dpi=1000)
     plt.show()
 
     ### PART 2 - perform rejection sampling
@@ -124,7 +127,10 @@ if __name__ == "__main__":
     plt.xlim(xmin, max(xs))
     plt.ylim(0, 1.2*max(ys))
     plt.legend(fontsize = 15)
- 
+
+    figure = plt.gcf()
+    figure.set_size_inches(19,10)
+    plt.savefig("RejectionSampling.pdf")
     plt.show()
     
     # the efficiency is the number of hits / the total number of draws,
@@ -161,6 +167,9 @@ if __name__ == "__main__":
     plt.tick_params(axis = 'both', labelsize = 13)
     plt.legend(fontsize = 15, loc = 'upper right')
 
+    figure = plt.gcf()
+    figure.set_size_inches(19,10)
+    plt.savefig("SampleDistribution.pdf")
     plt.show()
 
     ### PART 4 - normalize data for probability distribution
@@ -203,6 +212,9 @@ if __name__ == "__main__":
     plt.title("Probability Density with Monte Carlo (Nsample =" + str("{:.0e}".format(Nsample*0.1))+")", fontsize = 15, fontweight = 'bold') 
     plt.legend(fontsize = 15)
     plt.tick_params(axis = 'both', labelsize = 13)
- 
+
+    figure = plt.gcf()
+    figure.set_size_inches(19,10)
+    plt.savefig("ProbabilityDensity.pdf")
     plt.show()
 
